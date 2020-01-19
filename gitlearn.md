@@ -27,4 +27,4 @@ $ git checkout dev 切换分支
 Git branch 查看分支
 git merge dev 合并分支
  切换 switch 分支
-
+git branch -d dev 删除分支
