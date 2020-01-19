@@ -24,5 +24,5 @@ $ git branch dev 创建分支
 $ git checkout dev 切换分支
 简写 git checkout -b dev
 Git branch 查看分支
-
+git merge dev 合并分支
 
