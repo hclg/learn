@@ -23,6 +23,8 @@ ssh-keygen -t rsa -C "2249121951@qq.com" 创建远程连接钥匙
 $ git branch dev 创建分支
 $ git checkout dev 切换分支
 简写 git checkout -b dev
+	git switch -c dev
 Git branch 查看分支
 git merge dev 合并分支
+ 切换 switch 分支
 
