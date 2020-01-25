@@ -28,3 +28,11 @@ Git branch 查看分支
 git merge dev 合并分支
  切换 switch 分支
 git branch -d dev 删除分支
+ 在本地创建dev分支并与远程dev分支对应
+     git checkout -b dev origin/dev
+ 切换到master分支
+     git checkout master
+ 本地的dev合并到master上（如果遇到冲突解决完后再次提交即可）
+     git merge dev
+ 推送到远程的master上
+     git push origin master           
